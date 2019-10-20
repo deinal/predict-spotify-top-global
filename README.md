@@ -1,13 +1,19 @@
 # Predict-Spotify-Top200
 
+A report on what we have done:
+```
+results/report.pdf
+```
+
+Clone it:
 ```
 git clone https://github.com/hd4niel/Predict-Spotify-Top200.git
 ```
 
 ## TODO
-- [ ] Analyze features' correlation with streams and position
-- [ ] Timeline of features over time
-- [ ] Feature timeseries forecasting
+- [x] Analyze features' correlation with streams and position
+- [x] Timeline of features over time
+- [x] Feature timeseries forecasting
 - [x] Extra: Generate lyrics
 
 ## File structure
@@ -53,3 +59,6 @@ choose kernel .venv
 
 #### Used ImageMagick in bash for GIF
     convert -delay 15 *.jpg topfeatures.gif
+
+#### Feature explanations
+[Explanation at spotify dev site](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/)
